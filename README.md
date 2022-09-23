@@ -79,6 +79,18 @@ php artisan jetstream:install livewire
 npm install && npm run dev
 ```
 
+## Criar um CRUD em laravel livewire
+
+### Editar as configurações no .env
+.env
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=crud_laravel
+DB_USERNAME=root
+DB_PASSWORD=root
+```
 
 ## License
 
