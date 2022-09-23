@@ -92,6 +92,12 @@ DB_USERNAME=root
 DB_PASSWORD=root
 ```
 
+Criar a base de dados que corresponde ao DB_DATABASE e fazer migrate
+```
+php artisan migrate
+```
+
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
