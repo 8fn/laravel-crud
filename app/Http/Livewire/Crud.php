@@ -47,7 +47,7 @@ class Crud extends Component
         [
           'nome' => $this->nome,
           'email' => $this->email,
-          'num_contato' => $this->contato
+          'num_contato' => $this->num_contato
         ]
       );
 
@@ -63,7 +63,7 @@ class Crud extends Component
       $this->student_id = $id;
       $this->nome = $student->nome;
       $this->email = $student->email;
-      $this->num_contato = $student->contato;
+      $this->num_contato = $student->num_contato;
 
       $this->openModalPopover();
 
