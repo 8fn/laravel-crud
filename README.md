@@ -62,11 +62,45 @@ In order to ensure that the Laravel community is welcoming to all, please review
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## Install
+Install [composer](https://getcomposer.org/Composer-Setup.exe)  
+Install laravel with composer `composer global require "laravel/installer=~1.1"`  
+Install [tailwindcss](https://tailwindcss.com/docs/guides/laravel)  
+
+```
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+Install livewire and jetstream in laravel using composer
+
 ```
 composer create-project --prefer-dist laravel/laravel crud
 composer require laravel/jetstream
 php artisan jetstream:install livewire
 npm install && npm run dev
+```
+
+## Criar um CRUD em laravel livewire
+
+### Editar as configurações no .env
+.env
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=crud_laravel
+DB_USERNAME=root
+DB_PASSWORD=root
+```
+
+Criar a base de dados que corresponde ao DB_DATABASE e fazer migrate
+```
+php artisan migrate
+```
+
+Criar modelo e migratorio
+
+```
+php artisan make:model Student -m
 ```
 
 
