@@ -97,6 +97,12 @@ Criar a base de dados que corresponde ao DB_DATABASE e fazer migrate
 php artisan migrate
 ```
 
+Criar modelo e migratorio
+
+```
+php artisan make:model Student -m
+```
+
 
 ## License
 
