@@ -74,6 +74,7 @@ Install livewire and jetstream in laravel using composer
 
 ```
 composer create-project --prefer-dist laravel/laravel crud
+cd crud
 composer require laravel/jetstream
 php artisan jetstream:install livewire
 npm install && npm run dev
