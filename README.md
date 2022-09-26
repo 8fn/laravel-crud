@@ -109,6 +109,12 @@ Create livewire crudphp artisan make:livewire crud
 php artisan make:livewire crud
 ```
 
+Refresh Migrate
+
+```
+php artisan migrate:fresh
+```
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
