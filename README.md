@@ -102,7 +102,12 @@ Criar modelo e migratorio
 ```
 php artisan make:model Student -m
 ```
+Create livewire crudphp artisan make:livewire crud
 
+
+```
+php artisan make:livewire crud
+```
 
 ## License
 
