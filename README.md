@@ -63,7 +63,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## Instalação
 Instalar [composer](https://getcomposer.org/Composer-Setup.exe)  
-Instalar laravel with composer `composer global require "laravel/installer=~1.1"`  
+Instalar laravel com composer `composer global require "laravel/installer=~1.1"`  
 Instalar [tailwindcss](https://tailwindcss.com/docs/guides/laravel)  
 
 ```
