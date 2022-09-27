@@ -116,6 +116,9 @@ Refresh Migrate (atualizar o migratório)
 php artisan migrate:fresh
 ```
 
+## Link para criar CRUD
+[Laravel 9 Livewire CRUD com jetstream](https://www.positronx.io/build-laravel-livewire-crud-application-using-jetstream/)
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
